@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Card = ({data, reference}) => {
     const {desc, title, download, Background}= data
   return (
-    <motion.div  drag dragConstraints={reference} whileDrag={{scale: 1.2}} className=" z-[5] relative w-64 h-64 rounded-xl overflow-hidden bg-green-500/90">
+    <motion.div  drag dragConstraints={reference}  whileDrag={{scale: 1.2}} className=" z-[5] relative w-64 h-64 rounded-xl overflow-hidden bg-green-500/90">
     <div className="p-4">
     <h2 className=" text-black">{title}</h2>
    <p className=" font-thin text-sm"> {desc}</p>
