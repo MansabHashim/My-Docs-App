@@ -1,7 +1,9 @@
 // import React from 'react'
 import { motion } from "framer-motion"
 
+// eslint-disable-next-line react/prop-types
 const Card = ({data, reference}) => {
+    // eslint-disable-next-line react/prop-types
     const {desc, title, download, Background}= data
   return (
     <motion.div  drag dragConstraints={reference}  whileDrag={{scale: 1.2}} className=" z-[5] relative w-64 h-64 rounded-xl overflow-hidden bg-green-500/90">
