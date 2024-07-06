@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #222;
+  color: white;
+  width: full;
+  /* font-size: large; */
+  height: 70vh;
+  font-family:  sans-serif;
+  font-weight: bold;
+}
+
+
+::selection{
+  color: rgb(0, 255, 238);
+}
